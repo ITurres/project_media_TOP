@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.my-navbar {
+  /* background-color: var(--color-style-transparent-black); */
+  background: linear-gradient(
+    90deg,
+    var(--color-style-off-black),
+    var(--color-style-off-black),
+    var(--color-style-transparent-black),
+    var(--color-style-transparent-black),
+    var(--color-style-transparent-black),
+    var(--color-style-of-white),
+    var(--color-style-of-white),
+    var(--color-style-of-white),
+    var(--color-style-of-white),
+    var(--color-style-of-white),
+    var(--color-style-of-white),
+    var(--color-style-transparent-black),
+    var(--color-style-transparent-black),
+    var(--color-style-transparent-black),
+    var(--color-style-off-black),
+    var(--color-style-off-black)
+  );
+  flex-wrap: nowrap;
+}
+
+.my-navbar a {
+  font-family: "Oswald", sans-serif;
+}
+
+.my-navbar__li-item,
+.my-navbar a {
+  color: white;
+}
+
+.my-navbar__items-left,
+.my-navbar__items-center,
+.my-navbar__items-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 400px;
+}
+
+.my-navbar__items-left {
+  justify-content: left;
+  margin-left: 1rem;
+}
+.my-navbar__items-center {
+  justify-content: center;
+  min-width: 600px;
+}
+.my-navbar__items-right {
+  justify-content: right;
+  margin-right: 1rem;
+}
+
+.my-navbar__items-right li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+.my-navbar__btn {
+  border-radius: 100%;
+  background-color: unset;
+  border: none;
+  padding: 0.7rem;
+  font-size: 1.3rem;
+}
+
+.my-navbar__btn:hover {
+  background-color: var(--color-style-dark-gray);
+}
+
+.my-navbar__logo {
+  width: 10%;
+  min-width: 30px;
+}
+
+.my-navbar__profile-img {
+  width: 10%;
+  min-width: 40px;
+  border-radius: 100%;
+}
+
+.my-navbar__search-bar,
+.my-navbar__search-form__btn {
+  padding: 0.5rem 1.3rem;
+}
+
+.my-navbar__search-bar {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.my-navbar__search-bar,
+.my-navbar__search-bar:focus,
+.my-navbar__search-form__btn {
+  border: none;
+  outline: 0;
+}
+
+.my-navbar__search-form__btn {
+  border-radius: 0 2rem 2rem 0;
+  background-color: var(--color-style-dark-gray);
+  color: lightgray;
+}
+
+.my-navbar__search-form__btn:hover {
+  background-color: var(--color-style-dark-gray);
+  color: lightgray;
+}
+
+/*! overwrite bootstrap styles */
+[type="search"] {
+  outline-offset: unset;
+}

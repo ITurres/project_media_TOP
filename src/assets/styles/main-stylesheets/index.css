@@ -1,0 +1,24 @@
+/*resets*/
+@import "../resets/normalize.css";
+
+/*variables*/
+@import "../variables/colors.css";
+
+/*animations*/
+
+/*dark-style*/
+@import "../dark-style/dark-style.css";
+
+/*base*/
+@import "../base/base.css";
+/*utils-styles*/
+
+/*components*/
+@import "../components/navbar/navbar.css";
+/*UI*/
+
+/*UX*/
+
+/*page-sections*/
+
+/*config*/

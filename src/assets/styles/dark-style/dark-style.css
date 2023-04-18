@@ -1,0 +1,4 @@
+.dark-style {
+  background-color: var(--color-style-off-black);
+  color: white;
+}
