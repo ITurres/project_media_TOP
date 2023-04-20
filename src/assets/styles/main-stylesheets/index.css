@@ -11,14 +11,19 @@
 
 /*base*/
 @import "../base/base.css";
+
 /*utils-styles*/
 
 /*components*/
 @import "../components/navbar/navbar.css";
+
 /*UI*/
+@import "../components/UI/index-main-btn.css";
 
 /*UX*/
 
 /*page-sections*/
+@import "../page-sections/main-index.css";
 
 /*config*/
+@import "../config/breakpoints/index-main-breakpoints.css";
