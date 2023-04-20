@@ -36,8 +36,14 @@ li {
 
 /*! overwrite bootstrap styles */
 ul,
-ul {
+ul,
+h1,
+p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .mb-3 {
