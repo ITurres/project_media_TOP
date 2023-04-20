@@ -1,6 +1,8 @@
 :root {
   --color-style-transparent-black: rgba(30, 30, 30, 0.832);
   --color-style-off-black: rgb(30, 30, 30);
+  --color-style-black: rgb(23, 23, 23);
+  --color-style-gray: rgb(50, 50, 50);
   --color-style-dark-gray: rgb(87, 87, 87);
   --color-style-of-white: rgba(84, 84, 84, 0.832);
 }
