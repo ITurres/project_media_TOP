@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); /*? recreates youtube logo font*/
 
 .my-navbar {
   /* background-color: var(--color-style-transparent-black); */
   background: linear-gradient(
     90deg,
+    var(--color-style-black),
+    var(--color-style-black),
     var(--color-style-off-black),
-    var(--color-style-off-black),
     var(--color-style-transparent-black),
     var(--color-style-transparent-black),
     var(--color-style-transparent-black),
@@ -19,7 +20,8 @@
     var(--color-style-transparent-black),
     var(--color-style-transparent-black),
     var(--color-style-off-black),
-    var(--color-style-off-black)
+    var(--color-style-black),
+    var(--color-style-black)
   );
   flex-wrap: nowrap;
 }
@@ -66,10 +68,11 @@
   border: none;
   padding: 0.7rem;
   font-size: 1.3rem;
+  min-width: 3rem;
 }
 
 .my-navbar__btn:hover {
-  background-color: var(--color-style-dark-gray);
+  background-color: var(--color-style-off-black);
 }
 
 .my-navbar__logo {
@@ -77,8 +80,9 @@
   min-width: 30px;
 }
 
-.my-navbar__profile-img {
-  width: 10%;
+.my-navbar__profile-img,
+.actions__video-owner-img {
+  width: 5%;
   min-width: 40px;
   border-radius: 100%;
 }
