@@ -13,10 +13,12 @@
 
 @media (max-width: 800px) {
   main {
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
   .iframe-video-data__actions {
     flex-wrap: wrap;
+  }
+  .iframe-video-data__actions .actions-right {
     margin-top: 1rem;
   }
 }
