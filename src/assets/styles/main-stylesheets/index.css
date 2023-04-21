@@ -27,3 +27,4 @@
 
 /*config*/
 @import "../config/breakpoints/index-main-breakpoints.css";
+@import "../config/breakpoints/navbar-breakpoints.css";
