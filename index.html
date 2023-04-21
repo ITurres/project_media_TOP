@@ -129,19 +129,8 @@
           </p>
         </div>
       </section>
-      <aside class="videos-suggestions">
-        <!-- <a class="videos-suggestions__items">
-          <img
-            src="src/assets/media/images/asus-multicolor-bg.jpg"
-            alt=""
-            class="suggestion-item__img"
-          />
-          <div class="suggestion-item__data">
-            <h1 class="data__title">#Video Item Test</h1>
-            <p class="data__video-channel-name">about a test</p>
-            <p class="data__views">120.230 views</p>
-          </div>
-        </a> -->
+      <aside class="videos-suggestions" data-videos-suggestions-holder>
+        <!-- suggestion items will be auto injected -->
       </aside>
     </main>
     <script
@@ -152,6 +141,10 @@
       crossorigin="anonymous"
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    ></script>
+    <script
+      type="module"
+      src="src/js/components/markup-injectors/inject-suggestion-items.js"
     ></script>
   </body>
 </html>
