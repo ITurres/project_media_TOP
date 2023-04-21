@@ -1,0 +1,19 @@
+@media (max-width: 550px) {
+  .my-navbar__search-bar {
+    display: none;
+  }
+  .my-navbar__search-form__btn {
+    border-radius: 2rem;
+  }
+  .my-navbar__items-right {
+    margin-right: 2rem;
+  }
+  .my-navbar__items-center {
+    min-width: 0;
+  }
+  .my-navbar__items-left,
+  .my-navbar__items-center,
+  .my-navbar__items-right {
+    gap: 1rem;
+  }
+}
