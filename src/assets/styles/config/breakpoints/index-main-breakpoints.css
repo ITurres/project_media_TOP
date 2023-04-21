@@ -1,4 +1,4 @@
-@media (max-width: 1010px) {
+@media (max-width: 1300px) {
   main {
     flex-direction: column;
   }
@@ -8,5 +8,15 @@
   }
   aside.videos-suggestions {
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    padding: 2rem 2rem;
+  }
+  .iframe-video-data__actions {
+    flex-wrap: wrap;
+    margin-top: 1rem;
   }
 }
