@@ -82,7 +82,7 @@ aside .videos-suggestions__items {
   width: 90%;
   height: auto;
   cursor: pointer;
-  padding-right: 4rem;
+  padding-right: 1rem;
 }
 
 aside .videos-suggestions__items:hover {
