@@ -30,7 +30,7 @@
 
 <div align="center">
   <a href="https://iturres.github.io/project_media_TOP/" target="_blank">
-    <img alt="cs50 logo" src="readme-src/media/project-mobile-preview.PNG" width="40%">
+    <img alt="project mobile preview" src="readme-src/media/project-mobile-preview.PNG" width="40%">
   </a>
 </div>
 
@@ -40,7 +40,7 @@
 
 <div align="center">
   <a href="https://iturres.github.io/project_media_TOP/" target="_blank">
-    <img alt="cs50 logo" src="readme-src/media/project-tablet-preview.PNG" width="60%">
+    <img alt="project tablet preview" src="readme-src/media/project-tablet-preview.PNG" width="60%">
   </a>
 </div>
 
@@ -50,7 +50,7 @@
 
 <div align="center">
   <a href="https://iturres.github.io/project_media_TOP/" target="_blank">
-    <img alt="cs50 logo" src="readme-src/media/project-desktop-preview.png" width="90%">
+    <img alt="project desktop preview" src="readme-src/media/project-desktop-preview.PNG" width="90%">
   </a>
 </div>
 
