@@ -1,6 +1,6 @@
 main {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   padding: 2rem 6rem;
 }
 
@@ -71,17 +71,18 @@ main.dark-style {
 }
 
 aside.videos-suggestions {
-  height: 100vh;
   width: 60%;
   min-width: 40%;
 }
 
 aside .videos-suggestions__items {
   display: flex;
+  margin: 0.5rem 0;
   color: white;
-  width: 100%;
+  width: 90%;
   height: auto;
   cursor: pointer;
+  padding-right: 4rem;
 }
 
 aside .videos-suggestions__items:hover {
@@ -91,11 +92,7 @@ aside .videos-suggestions__items:hover {
 aside .suggestion-item__img {
   border-radius: 0.5rem;
   max-width: 10rem;
-}
-
-aside .videos-suggestions__items {
-  display: flex;
-  margin: 0.5rem 0;
+  width: 100%;
 }
 
 aside .data__title {

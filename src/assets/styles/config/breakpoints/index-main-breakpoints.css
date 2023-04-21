@@ -2,4 +2,11 @@
   main {
     flex-direction: column;
   }
+  aside .videos-suggestions__items {
+    padding-right: 0;
+    width: 100%;
+  }
+  aside.videos-suggestions {
+    width: 100%;
+  }
 }
